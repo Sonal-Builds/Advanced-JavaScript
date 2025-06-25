@@ -5,6 +5,7 @@ const numbers = [1,2,3,4,5]
 numbers.forEach(function(arg) {
     console.log(arg)
 })
+console.log('after Synchronous callback')
 
 // Asynchronous Callbacks:
 
@@ -14,3 +15,4 @@ setTimeout(() => {
     })
     
 },2000)
+console.log('after Asynchronous callback')
